@@ -1,5 +1,26 @@
-header{
-    background-color: red;
-}
+html {
+    height: 100%;
+  }
+  body {
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:white ;
+  }
+/**Header**/
+@import "layout/header";
+ /**barra de navegacion**/
+@import "layout/_navigation.sass";
+ /**Grid**/
+@import"layout/grid";
+/**Animaciones**/
+@import "layout/main";
+/**Footer*/
+  @import "Layout/footer";
 
+
+  
+  
+  
 
